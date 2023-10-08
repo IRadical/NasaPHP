@@ -18,8 +18,7 @@
             Tu navegador no admite videos HTML5.
         </video>
         <div class="info-content">
-            <h1>Información</h1>
-            <p>Aquí puedes agregar información sobre tu empresa o proyecto.</p>
+            <h1>Conectar el Conocimiento, Forjar el Futuro</h1>
         </div>
     </section>
 
@@ -45,7 +44,22 @@
             <p>Descripción del proyecto 4.</p>
         </div>
     </section>
-    </header>
+
+    <div>
+        <section class="wasa">
+            <h2>Proyecto con mas interacciones</h2>
+        </section>
+        <section class="wasa">
+            <div class="wasatere">
+                <h3>Proyecto 1</h3>
+                <p>Descripción del proyecto 1.</p>
+            </div>
+        </section>
+    </div>
+
+
+
+
     <script>
 
         //Menu nav
@@ -73,7 +87,7 @@
         */
 
         // Función para mostrar la sección de "Proyectos" al desplazarse hacia abajo
-window.addEventListener('scroll', function() {
+    window.addEventListener('scroll', function() {
     const projectsSection = document.querySelector('.project-section');
     const infoSection = document.querySelector('.info-section');
     
@@ -82,15 +96,7 @@ window.addEventListener('scroll', function() {
     
     // Define una posición de desplazamiento a partir de la cual mostrar la sección de "Proyectos"
     const showProjectsPosition = infoSection.offsetHeight * 0.7;
-    
-    // Muestra la sección de "Proyectos" cuando se desplaza más abajo de la posición definida
-    if (scrollPosition > showProjectsPosition) {
-        projectsSection.style.opacity = '1';
-        projectsSection.style.transform = 'translateY(0)';
-    } else {
-        projectsSection.style.opacity = '0';
-        projectsSection.style.transform = 'translateY(100px)';
-    }
+
 });
 
     </script>
