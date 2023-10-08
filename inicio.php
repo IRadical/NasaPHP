@@ -24,23 +24,23 @@
     </section>
 
 
-    <section class="project-section">
-        <h2>Proyectos Recientes</h2>
+    <section class="project-section1">
+        <h2 class="titulo_proyecto">Proyectos Recientes</h2>
     </section>
     <section class="project-section">
-        <div class="project">
+        <div class="project1">
             <h3>Proyecto 1</h3>
             <p>Descripción del proyecto 1.</p>
         </div>
-        <div class="project">
+        <div class="project2">
             <h3>Proyecto 2</h3>
             <p>Descripción del proyecto 2.</p>
         </div>
-        <div class="project">
+        <div class="project3">
             <h3>Proyecto 3</h3>
             <p>Descripción del proyecto 3.</p>
         </div>
-        <div class="project">
+        <div class="project4">
             <h3>Proyecto 4</h3>
             <p>Descripción del proyecto 4.</p>
         </div>
@@ -48,6 +48,9 @@
     </header>
     <script>
 
+
+// Llama a la función para mover la barra de división cada 3 segundos
+setInterval(moveDivisionBar, 3000);
         //Menu nav
         const toggleBtn = document.querySelector(".toggle_btn")
         const toggleBtnIcon = document.querySelector(".toggle_btn i")

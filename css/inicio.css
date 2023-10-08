@@ -157,13 +157,44 @@ a:hover {
 }
 
 .project-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
+    padding: 2px;
+    
+   
 }
-
+.project-section1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 2px;
+    
+   
+}
+.titulo_proyecto{
+    grid-column: 2 / 3; 
+}
+.project1{
+    grid-column: 2 / 3;
+    grid-row: 1;
+}
+.project2{
+    grid-column: 2 / 3;
+    grid-row: 2;
+}
+.project3{
+    grid-column: 3 / 4;
+    grid-row: 1;
+}
+.project4{
+    grid-column: 3 / 4;
+    grid-row: 2;
+}
 .project {
     background: rgba(255, 255, 255, 0.2);
     padding: 20px;
@@ -203,3 +234,6 @@ a:hover {
     }
 }
 
+hr {
+    border: 1px solid #ccc;
+}
