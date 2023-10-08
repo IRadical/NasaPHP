@@ -194,11 +194,24 @@ a:hover {
     justify-content: space-around;
 }
 
+.wasa2 {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
 .wasatere {
     background: rgba(255, 255, 255, 0.2);
     padding: 20px;
     margin: 10px;
     text-align: center;
+}
+.wasatere .wasaimg {
+    background-image: url('../img/biblio.jpg');
+    background-size: cover;
+    padding: 10px;
 }
 
 .wasatere h3 {
@@ -209,6 +222,40 @@ a:hover {
 .wasatere p {
     font-size: 14px;
 }
+
+.about-section {
+    background-color: #f5f5f5;
+    padding: 40px 0; /* Espaciado superior e inferior */
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.about-content {
+    max-width: 800px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+}
+
+.about-content h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.about-content p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5; /* Espaciado entre líneas */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.social-icons {
+    margin-top: 20px; /* Espaciado superior */
+}
+
+.social-icon {
+    margin-right: 20px; /* Espaciado derecho entre iconos */
+}
+
+
 
 
 
