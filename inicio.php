@@ -65,14 +65,26 @@
         <section class="wasa2">
             <div class="wasatere">
                 <div class="wasaimg">
-                <h3>Sistema de Gestión de Biblioteca Digital</h3>
-                <p>El proyecto de código abierto "Sistema de Gestión de Biblioteca Digital" tiene como objetivo proporcionar una solución completa y flexible para
-                     administrar bibliotecas digitales en línea. Este proyecto nace de la
-                     necesidad de facilitar el acceso a recursos digitales, libros electrónicos y otros materiales de lectura en formato digital.</p>
-                    </div>
-                </div>
-        </section>
-    </div>
+                <h3>Sistema de Chatbot Inteligente</h3>
+                <p>El proyecto de código abierto "Sistema de Chatbot Inteligente" tiene como objetivo desarrollar un chatbot avanzado que utiliza tecnologías de inteligencia artificial para interactuar con los usuarios de manera efectiva y personalizada.</p>
+                
+                <p>Este proyecto aprovecha una serie de tecnologías y herramientas relacionadas con la inteligencia artificial, incluyendo:</p>
+                <ul>
+                    <li><strong>Procesamiento del Lenguaje Natural (NLP):</strong> para comprender y generar respuestas en lenguaje humano.</li>
+                    <li><strong>Aprendizaje Automático (Machine Learning):</strong> para mejorar la capacidad de respuesta del chatbot a medida que interactúa con más usuarios.</li>
+                    <li><strong>Redes Neuronales:</strong> para el procesamiento de información y la toma de decisiones basadas en datos.</li>
+                    <li><strong>Tecnologías de API de NLP:</strong> para integrar capacidades avanzadas de procesamiento de lenguaje natural.</li>
+                    <li><strong>Desarrollo web:</strong> para crear una interfaz de usuario amigable para los usuarios finales.</li>
+                </ul>
+
+                <p>El chatbot se enfoca en una amplia gama de aplicaciones, desde asistencia al cliente hasta recomendaciones de productos y respuestas a preguntas frecuentes. Su capacidad de aprendizaje continuo y adaptación lo convierte en una solución poderosa para empresas y organizaciones que desean mejorar la interacción con sus clientes y usuarios.</p>
+
+                <p>Si te apasiona la inteligencia artificial y deseas contribuir o aprender más sobre este proyecto de código abierto, ¡te invitamos a unirte a nuestra comunidad y explorar el código en GitHub!</p>
+               <p><a href="https://github.com/tuusuario/tuproyecto" target="_blank">Visitar el repositorio en GitHub</a></p>
+            </div>
+        </div>
+    </section>
+</div>
 
 
 

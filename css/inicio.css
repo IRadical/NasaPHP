@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-image: url('../img/fondo.jpeg');
+    background-image: url('../img/fondini.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -44,6 +44,7 @@ a:hover {
     align-items: center; /* Centra verticalmente el contenido */
     justify-content: space-between;
     z-index: 1000;
+    
 }
 
 .logo{
@@ -209,8 +210,9 @@ a:hover {
     text-align: center;
 }
 .wasatere .wasaimg {
-    background-image: url('../img/biblio.jpg');
-    background-size: cover;
+    background-image: url('../img/1.jpg');
+    background-size: 100% 100%; /* Ajuste horizontal */
+    background-repeat: no-repeat;
     padding: 10px;
 }
 
