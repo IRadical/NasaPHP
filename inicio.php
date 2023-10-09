@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <title>Eclipse UX</title>
 </head>
-<body>
+
 
 <?php include 'nav.html' ?>
 
@@ -20,15 +20,15 @@
             Tu navegador no admite videos HTML5.
         </video>
         <div class="info-content">
-            <h1>Conectar el Conocimiento, Forjar el Futuro</h1>
+            <h1 style="font-size: 85px;">CONNECT KNOWLEDGE, SHAPE THE FUTURE</h1>
         </div>
     </section>
 
     <section class="about-section">
     <div class="about-content">
-        <h2>Acerca de Nosotros</h2>
-        <p>Somos un equipo apasionado de desarrolladores y entusiastas de la tecnología comprometidos en hacer que la colaboración en proyectos de código abierto y ciencia abierta sea más accesible y efectiva.</p>
-        <p>Nuestra aplicación tiene como objetivo conectar a creadores de proyectos con colaboradores interesados que posean las habilidades necesarias para contribuir. Facilitamos la comunicación y la creación conjunta de soluciones innovadoras para abordar desafíos en campos diversos.</p>
+        <h2>About us</h2>
+        <p>We are a passionate team of developers and technology enthusiasts committed to making collaboration on open source and open science projects more accessible and effective.</p>
+        <p>Our app aims to connect project creators with interested collaborators who possess the necessary skills to contribute. We facilitate communication and co-creation of innovative solutions to address challenges in diverse fields.</p>
         <div class="social-icons">
             <a href="#" class="social-icon"><i class="fab fa-twitter" style="color: black; font-size: 30px;"></i></a>
             <a href="#" class="social-icon"><i class="fab fa-instagram" style="color: black; black; font-size: 30px;"></i></a>
@@ -37,50 +37,62 @@
     </div></section>
 
     <section class="project-section">
-        <h2>Proyectos Recientes</h2>
+        <h2>Recent projects</h2>
     </section>
     <section class="project-section">
-        <div class="project">
-            <h3>Proyecto 1</h3>
-            <p>Descripción del proyecto 1.</p>
-        </div>
-        <div class="project">
-            <h3>Proyecto 2</h3>
-            <p>Descripción del proyecto 2.</p>
-        </div>
-        <div class="project">
-            <h3>Proyecto 3</h3>
-            <p>Descripción del proyecto 3.</p>
-        </div>
-        <div class="project">
-            <h3>Proyecto 4</h3>
-            <p>Descripción del proyecto 4.</p>
-        </div>
-    </section>
+    <div class="project">
+        <a class="project-link" href="#">
+            <h3>Project  A</h3>
+            <p>Project A is an open source collaboration platform that facilitates collaboration in distributed teams. Provides tools for project management, communication and task tracking.</p>
+        </a>
+    </div>
+    <div class="project">
+        <a class="project-link" href="#">
+            <h3>Project B</h3>
+            <p>Project B is an open source content management system that allows users to create and manage websites efficiently. It offers a wide range of features and is highly customizable.
+</p>
+        </a>
+    </div>
+    <div class="project">
+        <a class="project-link" href="#">
+            <h3>Project C</h3>
+            <p>Project C is an open source 3D graphics library designed for real-time rendering applications. It is widely used in the video game and 3D visualization industry.</p>
+        </a>
+    </div>
+    <div class="project">
+        <a class="project-link" href="#">
+            <h3>Project D</h3>
+            <p>Project D is an open source web development framework that simplifies the creation of modern, scalable web applications. It is based on popular technologies such as React and Node.js.</p>
+        </a>
+    </div>
+</section>
+
 
     <div>
         <section class="wasa">
-            <h2>Proyecto con mas interacciones</h2>
+            <h2>Project with more interactions</h2>
         </section>
         <section class="wasa2">
             <div class="wasatere">
                 <div class="wasaimg">
-                <h3>Sistema de Chatbot Inteligente</h3>
-                <p>El proyecto de código abierto "Sistema de Chatbot Inteligente" tiene como objetivo desarrollar un chatbot avanzado que utiliza tecnologías de inteligencia artificial para interactuar con los usuarios de manera efectiva y personalizada.</p>
+                <a href="pagina2.php">
+                            <h3>Smart Chatbot System</h3>
+                <p>The open source project "Intelligent Chatbot System" aims to develop an advanced chatbot that uses artificial intelligence technologies to interact with users in an effective and personalized way.</p>
                 
-                <p>Este proyecto aprovecha una serie de tecnologías y herramientas relacionadas con la inteligencia artificial, incluyendo:</p>
+                <p>This project leverages a number of technologies and tools related to artificial intelligence, including:</p>
                 <ul>
-                    <li><strong>Procesamiento del Lenguaje Natural (NLP):</strong> para comprender y generar respuestas en lenguaje humano.</li>
-                    <li><strong>Aprendizaje Automático (Machine Learning):</strong> para mejorar la capacidad de respuesta del chatbot a medida que interactúa con más usuarios.</li>
-                    <li><strong>Redes Neuronales:</strong> para el procesamiento de información y la toma de decisiones basadas en datos.</li>
-                    <li><strong>Tecnologías de API de NLP:</strong> para integrar capacidades avanzadas de procesamiento de lenguaje natural.</li>
-                    <li><strong>Desarrollo web:</strong> para crear una interfaz de usuario amigable para los usuarios finales.</li>
+                    <li><strong>Natural Language Processing (NLP):</strong> to understand and generate responses in human language.</li>
+                    <li><strong>Machine Learning:</strong> to improve the responsiveness of the chatbot as it interacts with more users.</li>
+                    <li><strong>Neural Networks:</strong> for information processing and data-based decision making.</li>
+                    <li><strong>NLP API technologies:</strong> to integrate advanced natural language processing capabilities.</li>
+                    <li><strong>Web development:</strong> to create a friendly user interface for end users.</li>
                 </ul>
 
-                <p>El chatbot se enfoca en una amplia gama de aplicaciones, desde asistencia al cliente hasta recomendaciones de productos y respuestas a preguntas frecuentes. Su capacidad de aprendizaje continuo y adaptación lo convierte en una solución poderosa para empresas y organizaciones que desean mejorar la interacción con sus clientes y usuarios.</p>
+                <p>The chatbot focuses on a wide range of applications, from customer support to product recommendations and answers to frequently asked questions. Its ability to continuously learn and adapt makes it a powerful solution for companies and organizations that want to improve interaction with their customers and users.</p>
 
-                <p>Si te apasiona la inteligencia artificial y deseas contribuir o aprender más sobre este proyecto de código abierto, ¡te invitamos a unirte a nuestra comunidad y explorar el código en GitHub!</p>
-               <p><a href="https://github.com/tuusuario/tuproyecto" target="_blank">Visitar el repositorio en GitHub</a></p>
+                <p>If you are passionate about artificial intelligence and want to contribute or learn more about this open source project, we invite you to join our community and explore the code on GitHub!</p>
+                <a>
+                <p><a href="https://github.com/IRadical/NasaPHP" target="_blank">Visit the repository on GitHub</a></p>
             </div>
         </div>
     </section>
@@ -90,6 +102,13 @@
 
 
     <script>
+document.querySelectorAll('.project-link').forEach(function(link) {
+    link.addEventListener('click', function(e) {
+        e.preventDefault(); // Evita la navegación normal
+        var url = this.getAttribute('href');
+        window.open(url, '_blank'); // Abre el enlace en una nueva ventana o pestaña
+    });
+});
 
         //Menu nav
         const toggleBtn = document.querySelector(".toggle_btn")
